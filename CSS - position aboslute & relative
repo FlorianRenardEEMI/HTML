@@ -1,0 +1,74 @@
+HTML:
+
+<div class="box1"> <!-- grand carré -->
+  <p class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+<div class="box2"></div> <!-- rond centré en en-tête -->
+<div class="box3"></div> <!-- carré -->
+<div class="box4"></div> <!-- carré -->
+<div class="box5"></div> <!-- rond en bas à gauche -->
+</div>
+</div>
+
+
+CSS:
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.box1 { 
+box-sizing: border-box;
+padding: 20px;
+position: relative;
+height :400px;
+width : 400px;
+border : 1px solid black;
+margin : 50px auto;
+  }
+.box2 {
+position: absolute;
+height :76px;
+width : 76px;
+backroungd: blue;
+border : solid;
+border-radius : 50%;
+left : 50%;
+top:0;
+transform: translate(-50%,-50%);
+ 
+  }
+
+.text {
+  margin-top: 25px;
+}
+
+.box3 { 
+box-sizing: border-box;
+padding: 20px;
+position: relative;
+height :60px;
+width : 60px;
+border : 1px solid black;
+margin : 50px auto;
+  }
+.box4 { 
+box-sizing: border-box;
+padding: 20px;
+position: relative;
+height :60px;
+width : 60px;
+border : 1px solid black;
+margin : 50px auto;
+  }
+.box5 { 
+box-sizing: border-box;
+padding: 20px;
+
+height :60px;
+width : 60px;
+border : 1px solid black;
+border-radius : 50%;
+transform: translate(-50%,-50%);
+left : 50%;
+bottom : 0 px;
+  }
